@@ -72,3 +72,102 @@
 		}
 	}
 }
+
+// Mobile menu toggle: a small always-visible button, deliberately NOT part of
+// .site-header — it never gets the .hidden transform, so navigation stays
+// reachable even while the full header is hidden during downward scroll.
+.menu-toggle {
+	display: none;
+	position: fixed;
+	top: 20px;
+	right: 5vw;
+	z-index: 30;
+	width: 32px;
+	height: 32px;
+	padding: 0;
+	border: none;
+	background: rgba(0, 0, 0, 0.5);
+	border-radius: 50%;
+	cursor: pointer;
+
+	span {
+		position: absolute;
+		left: 8px;
+		width: 16px;
+		height: 2px;
+		background: #fff;
+		border-radius: 1px;
+		transition:
+			transform 0.3s ease,
+			opacity 0.3s ease,
+			top 0.3s ease;
+
+		&:nth-child(1) {
+			top: 12px;
+		}
+		&:nth-child(2) {
+			top: 15px;
+		}
+		&:nth-child(3) {
+			top: 18px;
+		}
+	}
+
+	&.open {
+		span:nth-child(1) {
+			top: 15px;
+			transform: rotate(45deg);
+		}
+		span:nth-child(2) {
+			opacity: 0;
+		}
+		span:nth-child(3) {
+			top: 15px;
+			transform: rotate(-45deg);
+		}
+	}
+}
+
+.mobile-nav-menu {
+	display: none;
+	position: fixed;
+	inset: 0;
+	z-index: 25;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 28px;
+	background: rgba(0, 0, 0, 0.95);
+	opacity: 0;
+	pointer-events: none;
+	transition: opacity 0.3s ease;
+
+	a {
+		color: #fff;
+		text-decoration: none;
+		font-family: 'Hanken Grotesk', sans-serif;
+		font-weight: 500;
+		font-size: 22px;
+		letter-spacing: 0.02em;
+		text-transform: uppercase;
+	}
+
+	&.open {
+		opacity: 1;
+		pointer-events: auto;
+	}
+}
+
+@media (max-width: 640px) {
+	.site-header .left .nav-wrapper {
+		display: none;
+	}
+
+	.menu-toggle {
+		display: block;
+	}
+
+	.mobile-nav-menu {
+		display: flex;
+	}
+}
