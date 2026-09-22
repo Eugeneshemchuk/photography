@@ -24,14 +24,14 @@
 		padding-bottom: calc(10vw + 200px);
 	}
 
-	// Full-bleed background photo behind the centered contact content, header overlaid like the homescreen hero.
-	&.contact-page {
+	// Full-bleed background photo behind the page text (About, Contact), header overlaid like the homescreen hero.
+	&.photo-page {
 		position: relative;
 		overflow: hidden;
 		min-height: 100vh;
 		padding-top: 0;
 
-		.contact-page-image {
+		.photo-page-image {
 			position: absolute;
 			inset: 0;
 			width: 100%;
@@ -40,10 +40,11 @@
 			z-index: 0;
 		}
 
-		.contact-page-overlay {
+		// Darker on the left where the text sits, so the grey lines stay readable over bright areas.
+		.photo-page-overlay {
 			position: absolute;
 			inset: 0;
-			background: rgba(0, 0, 0, 0.55);
+			background: linear-gradient(90deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.6) 50%, rgba(0, 0, 0, 0.35) 100%);
 			z-index: 1;
 		}
 

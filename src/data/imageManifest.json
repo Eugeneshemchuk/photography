@@ -1,96 +1,4 @@
 {
-	"/assets/images/EXPERIMANTAL/DSCF0308.jpg": {
-		"width": 2000,
-		"height": 3000
-	},
-	"/assets/images/EXPERIMANTAL/DSCF0610.jpg": {
-		"width": 4000,
-		"height": 2667
-	},
-	"/assets/images/EXPERIMANTAL/DSCF0825-2.jpg": {
-		"width": 4000,
-		"height": 2667
-	},
-	"/assets/images/EXPERIMANTAL/DSCF1075.jpg": {
-		"width": 4713,
-		"height": 3142
-	},
-	"/assets/images/EXPERIMANTAL/DSCF1302.jpg": {
-		"width": 2500,
-		"height": 1667
-	},
-	"/assets/images/EXPERIMANTAL/DSCF1326.jpg": {
-		"width": 4747,
-		"height": 3165
-	},
-	"/assets/images/EXPERIMANTAL/DSCF1329.jpg": {
-		"width": 4896,
-		"height": 3264
-	},
-	"/assets/images/EXPERIMANTAL/DSCF1600.jpg": {
-		"width": 3000,
-		"height": 2000
-	},
-	"/assets/images/EXPERIMANTAL/DSCF1901.jpg": {
-		"width": 2500,
-		"height": 1667
-	},
-	"/assets/images/EXPERIMANTAL/DSCF1947.jpg": {
-		"width": 1667,
-		"height": 2500
-	},
-	"/assets/images/EXPERIMANTAL/DSCF1961.jpg": {
-		"width": 1667,
-		"height": 2500
-	},
-	"/assets/images/EXPERIMANTAL/DSCF2443.jpg": {
-		"width": 2500,
-		"height": 1667
-	},
-	"/assets/images/EXPERIMANTAL/DSCF2485.jpg": {
-		"width": 2500,
-		"height": 1667
-	},
-	"/assets/images/EXPERIMANTAL/DSCF2897.jpg": {
-		"width": 4835,
-		"height": 3223
-	},
-	"/assets/images/EXPERIMANTAL/DSCF3193.jpg": {
-		"width": 4435,
-		"height": 2957
-	},
-	"/assets/images/EXPERIMANTAL/DSC_0001.jpg": {
-		"width": 4429,
-		"height": 2953
-	},
-	"/assets/images/EXPERIMANTAL/DSC_1562.jpg": {
-		"width": 4608,
-		"height": 3072
-	},
-	"/assets/images/EXPERIMANTAL/DSC_7126.jpg": {
-		"width": 1500,
-		"height": 762
-	},
-	"/assets/images/EXPERIMANTAL/DSC_7322.jpg": {
-		"width": 1000,
-		"height": 1500
-	},
-	"/assets/images/EXPERIMANTAL/DSC_7358.jpg": {
-		"width": 3065,
-		"height": 4598
-	},
-	"/assets/images/EXPERIMANTAL/DSC_7387.jpg": {
-		"width": 4608,
-		"height": 3072
-	},
-	"/assets/images/EXPERIMANTAL/DSC_7413-2.jpg": {
-		"width": 4608,
-		"height": 3072
-	},
-	"/assets/images/EXPERIMANTAL/PRINTME.jpg": {
-		"width": 4618,
-		"height": 3464
-	},
 	"/assets/images/LIGHT PAINTING/DSC_7444.jpg": {
 		"width": 4608,
 		"height": 3072
@@ -118,10 +26,6 @@
 	"/assets/images/LIGHT PAINTING/DSC_7491.jpg": {
 		"width": 4608,
 		"height": 3072
-	},
-	"/assets/images/ME/DSCF1393.jpg": {
-		"width": 3000,
-		"height": 2000
 	},
 	"/assets/images/NATURE/DSCF0624.jpg": {
 		"width": 4000,
@@ -207,6 +111,34 @@
 		"width": 2500,
 		"height": 1667
 	},
+	"/assets/images/RANDOM/DSCF2443.jpg": {
+		"width": 2500,
+		"height": 1667
+	},
+	"/assets/images/RANDOM/DSCF2485.jpg": {
+		"width": 2500,
+		"height": 1667
+	},
+	"/assets/images/RANDOM/DSCF4274.jpg": {
+		"width": 3000,
+		"height": 2000
+	},
+	"/assets/images/RANDOM/DSC_0107-2.jpg": {
+		"width": 3000,
+		"height": 2000
+	},
+	"/assets/images/RANDOM/DSC_6657.jpg": {
+		"width": 3000,
+		"height": 1999
+	},
+	"/assets/images/RANDOM/DSC_7155.jpg": {
+		"width": 3000,
+		"height": 2000
+	},
+	"/assets/images/RANDOM/PRINTME.jpg": {
+		"width": 3000,
+		"height": 2250
+	},
 	"/assets/images/STREET/DSCF0320.jpg": {
 		"width": 3000,
 		"height": 2000
@@ -262,94 +194,6 @@
 	"/assets/images/STREET/DSCF3362.jpg": {
 		"width": 4896,
 		"height": 3264
-	},
-	"/assets/images/category_1/DSC_0076.jpg": {
-		"width": 4608,
-		"height": 3072
-	},
-	"/assets/images/category_1/DSC_0107-2.jpg": {
-		"width": 4608,
-		"height": 3072
-	},
-	"/assets/images/category_1/DSC_0224.jpg": {
-		"width": 4608,
-		"height": 3072
-	},
-	"/assets/images/category_1/DSC_0332.jpg": {
-		"width": 4608,
-		"height": 3072
-	},
-	"/assets/images/category_1/DSC_0431-2.jpg": {
-		"width": 3427,
-		"height": 2742
-	},
-	"/assets/images/category_1/DSC_0469.jpg": {
-		"width": 4608,
-		"height": 3072
-	},
-	"/assets/images/category_1/DSC_0503 copy.jpg": {
-		"width": 3565,
-		"height": 2682
-	},
-	"/assets/images/category_1/DSC_4351.jpg": {
-		"width": 4608,
-		"height": 3072
-	},
-	"/assets/images/category_1/DSC_4665.jpg": {
-		"width": 4608,
-		"height": 3072
-	},
-	"/assets/images/category_1/DSC_4693.jpg": {
-		"width": 2901,
-		"height": 1934
-	},
-	"/assets/images/category_1/DSC_4696.jpg": {
-		"width": 4608,
-		"height": 3072
-	},
-	"/assets/images/category_1/DSC_5017.jpg": {
-		"width": 4012,
-		"height": 2956
-	},
-	"/assets/images/category_1/DSC_5501.jpg": {
-		"width": 1898,
-		"height": 2122
-	},
-	"/assets/images/category_1/DSC_5570.jpg": {
-		"width": 3072,
-		"height": 4608
-	},
-	"/assets/images/category_1/DSC_6316.jpg": {
-		"width": 4352,
-		"height": 2901
-	},
-	"/assets/images/category_1/DSC_6657.jpg": {
-		"width": 3869,
-		"height": 2579
-	},
-	"/assets/images/category_1/DSC_6685.jpg": {
-		"width": 4608,
-		"height": 3072
-	},
-	"/assets/images/category_1/DSC_6865.jpg": {
-		"width": 3900,
-		"height": 2600
-	},
-	"/assets/images/category_1/DSC_6965.jpg": {
-		"width": 4608,
-		"height": 3072
-	},
-	"/assets/images/category_1/DSC_6966.jpg": {
-		"width": 4608,
-		"height": 3072
-	},
-	"/assets/images/category_1/DSC_7116.jpg": {
-		"width": 4608,
-		"height": 3072
-	},
-	"/assets/images/category_1/DSC_7155.jpg": {
-		"width": 4608,
-		"height": 3072
 	},
 	"/assets/images/category_1/abstract-DSCF0524-4x3.jpg": {
 		"width": 5000,

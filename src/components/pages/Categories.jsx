@@ -3,8 +3,12 @@ import Gallery from 'react-photo-gallery';
 import { Link } from 'react-router-dom';
 
 import PageWrapper from '../shared/PageWrapper';
-import { albums } from '../../utils/photoLibrary';
-import heroImage from '../../assets/hero/DSCF4274.jpg';
+import HeroSlideshow from '../shared/HeroSlideshow';
+import { albums, getAlbum } from '../../utils/photoLibrary';
+
+// Homepage hero rotates through the RANDOM album, always opening on its cover.
+const heroAlbum = getAlbum('random');
+const heroPhotos = heroAlbum.photos.map((photo) => photo.src);
 
 // Homescreen hero + scroll-reveal grid, recovered from the "Home Desktop" /
 // "Home Mobile" artboards in the designer's Sketch file — a layout that was
@@ -26,7 +30,7 @@ export default function Categories() {
 	return (
 		<>
 			<section className="home-hero">
-				<img className="home-hero-image" src={heroImage} alt="" />
+				<HeroSlideshow first={heroAlbum.cover.src} photos={heroPhotos} />
 				<div className="home-hero-overlay" />
 				<div className="home-hero-scroll-cue">Scroll to explore</div>
 			</section>

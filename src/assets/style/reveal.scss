@@ -1,0 +1,40 @@
+// Line-by-line text reveal shared by About and Contact (components/shared/RevealLines.jsx).
+.reveal-lines {
+	.reveal-item {
+		opacity: 0;
+		transform: translateY(12px);
+		animation: reveal-line-in 0.7s ease-out forwards;
+	}
+
+	p {
+		font-family: 'Hanken Grotesk', sans-serif;
+		font-size: clamp(26px, 4vw, 54px);
+		line-height: 1.12;
+		font-weight: 600;
+		letter-spacing: -0.025em;
+		color: #fff;
+
+		&:nth-child(2n) {
+			color: rgba(255, 255, 255, 0.5);
+		}
+	}
+
+	.reveal-extra {
+		margin-top: 48px;
+	}
+}
+
+@keyframes reveal-line-in {
+	to {
+		opacity: 1;
+		transform: none;
+	}
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.reveal-lines .reveal-item {
+		animation: none;
+		opacity: 1;
+		transform: none;
+	}
+}

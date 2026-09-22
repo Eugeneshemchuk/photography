@@ -2,6 +2,8 @@
 // slug-prefixed filenames) plus four of the six previously-unused photo folders, now wired up as
 // real albums. EXPERIMANTAL was left out (it's the uncropped source frames for the "experimental"
 // album, not distinct content) and ME was left out (only one photo, not enough for an album).
+// RANDOM is a hand-picked mix (mostly from EXPERIMANTAL and category_1_unused); it also drives
+// the rotating homepage hero, whose opening photo is its cover.
 export const categories = [
 	{
 		slug: 'abstract',
@@ -61,6 +63,13 @@ export const categories = [
 		title: 'LIGHT PAINTING',
 		folder: 'LIGHT PAINTING',
 		cover: 'DSC_7444.jpg',
+		overlayColor: '#110706',
+	},
+	{
+		slug: 'random',
+		title: 'RANDOM',
+		folder: 'RANDOM',
+		cover: 'DSCF4274.jpg',
 		overlayColor: '#110706',
 	},
 ];

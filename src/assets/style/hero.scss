@@ -6,12 +6,22 @@
 	width: 100%;
 	overflow: hidden;
 
+	// Each slide crossfades in over the previous one while slowly zooming (Ken Burns).
+	// The zoom runs past the 10s slide interval so motion never stops mid-crossfade.
 	.home-hero-image {
 		position: absolute;
 		inset: 0;
 		width: 100%;
 		height: 100%;
 		object-fit: cover;
+		animation:
+			hero-fade-in 1.8s ease-in-out both,
+			hero-zoom 13s linear both;
+
+		// The opening photo is already there on load — no fade, just the zoom.
+		&.is-first {
+			animation: hero-zoom 13s linear both;
+		}
 	}
 
 	.home-hero-overlay {
@@ -31,5 +41,33 @@
 		font-size: 13px;
 		letter-spacing: 0.08em;
 		text-transform: uppercase;
+	}
+}
+
+@keyframes hero-fade-in {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes hero-zoom {
+	from {
+		transform: scale(1);
+	}
+	to {
+		transform: scale(1.08);
+	}
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.home-hero .home-hero-image {
+		animation: hero-fade-in 1.8s ease-in-out both;
+
+		&.is-first {
+			animation: none;
+		}
 	}
 }

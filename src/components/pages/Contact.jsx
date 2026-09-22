@@ -1,23 +1,22 @@
 import React from 'react';
 
 import PageWrapper from '../shared/PageWrapper';
-import TextHeader from '../shared/TextHeader';
+import RevealLines from '../shared/RevealLines';
 import contactImage from '../../assets/contact/DSC_2010.jpg';
+
+const lines = ['Get in touch.', 'Have a project in mind', 'or just want to say hi?', 'Send me an email.'];
 
 export default function Contact() {
 	return (
-		<PageWrapper className="contact-page">
-			<img className="contact-page-image" src={contactImage} alt="" />
-			<div className="contact-page-overlay" />
+		<PageWrapper className="photo-page">
+			<img className="photo-page-image" src={contactImage} alt="" />
+			<div className="photo-page-overlay" />
 			<div className="main-content horizontal-centered">
-				<TextHeader
-					alignment="center"
-					title="Get in touch"
-					subtitle="Have a project in mind or just want to say hi? Send me an email."
-				/>
-				<a className="contact-button" href="mailto:shemchuk.eugene@gmail.com">
-					Contact Me
-				</a>
+				<RevealLines lines={lines}>
+					<a className="contact-button" href="mailto:shemchuk.eugene@gmail.com">
+						Contact Me
+					</a>
+				</RevealLines>
 			</div>
 		</PageWrapper>
 	);
