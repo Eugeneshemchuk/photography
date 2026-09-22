@@ -1,0 +1,187 @@
+.site-page {
+	margin-bottom: 5vw;
+	padding-right: 5vw;
+	padding-left: 5vw;
+	padding-top: calc(10vw + 24px); // clears the fixed header
+	width: auto;
+	max-width: 100%;
+	box-sizing: border-box;
+
+	// min- not a hard height: header/footer are fixed (out of flow) now, so this just
+	// guarantees short pages (About) fill the viewport for vertical centering, while
+	// letting long pages (Album galleries) grow past it — a hard height here previously
+	// clipped content and made the has-footer padding-bottom below ineffective.
+	min-height: 100vh;
+
+	// Homescreen: the 100vh hero already clears the fixed header, so the grid
+	// underneath it shouldn't get pushed down again.
+	&.home-page {
+		padding-top: 0;
+	}
+
+	// Album pages render a fixed footer below the gallery; keep the last row clear of it.
+	&.has-footer {
+		padding-bottom: calc(10vw + 200px);
+	}
+
+	// Full-bleed background photo behind the centered contact content, header overlaid like the homescreen hero.
+	&.contact-page {
+		position: relative;
+		overflow: hidden;
+		min-height: 100vh;
+		padding-top: 0;
+
+		.contact-page-image {
+			position: absolute;
+			inset: 0;
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			z-index: 0;
+		}
+
+		.contact-page-overlay {
+			position: absolute;
+			inset: 0;
+			background: rgba(0, 0, 0, 0.55);
+			z-index: 1;
+		}
+
+		.main-content {
+			position: relative;
+			z-index: 2;
+			height: 100vh;
+		}
+	}
+
+	// min-height (not height: 100%) so this doesn't depend on .site-page having a definite
+	// height to resolve a percentage against — it works standalone on About/Contact.
+	.horizontal-centered {
+		min-height: 100vh;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.page-text-wrapper {
+		max-width: 350px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 7.5vh;
+
+		.page-title {
+			font-family: 'Hanken Grotesk', sans-serif;
+			font-weight: 700;
+			font-style: normal;
+			font-size: 20px;
+			line-height: 1.3em;
+			letter-spacing: 0.02em;
+			text-transform: none;
+			color: #fff;
+			margin-bottom: 0;
+
+			&.align-center {
+				text-align: center;
+			}
+			&.align-right {
+				text-align: right;
+			}
+		}
+		.page-description {
+			font-family: 'Hanken Grotesk', sans-serif;
+			font-weight: 400;
+			font-style: normal;
+			font-size: 16px;
+			line-height: 1.5em;
+			letter-spacing: 0em;
+			text-transform: none;
+			color: rgba(255, 255, 255, 0.85);
+		}
+	}
+
+	.contact-button {
+		display: inline-block;
+		margin: 0 auto;
+		padding: 14px 36px;
+		border: 1px solid #fff;
+		border-radius: 999px;
+		color: #fff;
+		text-decoration: none;
+		font-family: 'Hanken Grotesk', sans-serif;
+		font-weight: 500;
+		font-size: 14px;
+		letter-spacing: 0.04em;
+		text-transform: uppercase;
+		transition:
+			background-color 0.3s ease-in-out,
+			color 0.3s ease-in-out;
+
+		&:hover {
+			background-color: #fff;
+			color: #000;
+		}
+	}
+
+	.react-photo-gallery--gallery {
+		margin-bottom: 15vh;
+	}
+	// No fixed height here — the gallery (Album/Categories) should grow to fit its
+	// content naturally; a percentage height previously collapsed it to nothing once
+	// .site-page stopped having a definite height of its own (see min-height above).
+	.main-content {
+		.category {
+			position: relative;
+			display: inline-flex;
+			align-items: center;
+			justify-content: center;
+			text-decoration: none;
+			color: white;
+			margin: 12px;
+			overflow: hidden;
+
+			.category-title {
+				position: absolute;
+				font-family: 'Hanken Grotesk', sans-serif;
+				font-weight: 400;
+				letter-spacing: 0.02em;
+				text-transform: uppercase;
+				font-style: normal;
+				font-size: 18px;
+				line-height: 1.4em;
+				opacity: 0;
+				margin-bottom: 0;
+				display: inline-block;
+				max-width: 70%;
+				text-align: center;
+
+				transition: 0.3s ease-in-out;
+			}
+
+			.category-overlay {
+				position: absolute;
+				top: 0;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				opacity: 0;
+				transition: 0.3s ease-in-out;
+			}
+
+			.category-img {
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+			}
+
+			&:hover {
+				.category-title {
+					opacity: 1;
+				}
+
+				.category-overlay {
+					opacity: 0.8;
+				}
+			}
+		}
+	}
+}

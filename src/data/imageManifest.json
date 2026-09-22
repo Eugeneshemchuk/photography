@@ -1,0 +1,578 @@
+{
+	"/assets/images/EXPERIMANTAL/DSCF0308.jpg": {
+		"width": 2000,
+		"height": 3000
+	},
+	"/assets/images/EXPERIMANTAL/DSCF0610.jpg": {
+		"width": 4000,
+		"height": 2667
+	},
+	"/assets/images/EXPERIMANTAL/DSCF0825-2.jpg": {
+		"width": 4000,
+		"height": 2667
+	},
+	"/assets/images/EXPERIMANTAL/DSCF1075.jpg": {
+		"width": 4713,
+		"height": 3142
+	},
+	"/assets/images/EXPERIMANTAL/DSCF1302.jpg": {
+		"width": 2500,
+		"height": 1667
+	},
+	"/assets/images/EXPERIMANTAL/DSCF1326.jpg": {
+		"width": 4747,
+		"height": 3165
+	},
+	"/assets/images/EXPERIMANTAL/DSCF1329.jpg": {
+		"width": 4896,
+		"height": 3264
+	},
+	"/assets/images/EXPERIMANTAL/DSCF1600.jpg": {
+		"width": 3000,
+		"height": 2000
+	},
+	"/assets/images/EXPERIMANTAL/DSCF1901.jpg": {
+		"width": 2500,
+		"height": 1667
+	},
+	"/assets/images/EXPERIMANTAL/DSCF1947.jpg": {
+		"width": 1667,
+		"height": 2500
+	},
+	"/assets/images/EXPERIMANTAL/DSCF1961.jpg": {
+		"width": 1667,
+		"height": 2500
+	},
+	"/assets/images/EXPERIMANTAL/DSCF2443.jpg": {
+		"width": 2500,
+		"height": 1667
+	},
+	"/assets/images/EXPERIMANTAL/DSCF2485.jpg": {
+		"width": 2500,
+		"height": 1667
+	},
+	"/assets/images/EXPERIMANTAL/DSCF2897.jpg": {
+		"width": 4835,
+		"height": 3223
+	},
+	"/assets/images/EXPERIMANTAL/DSCF3193.jpg": {
+		"width": 4435,
+		"height": 2957
+	},
+	"/assets/images/EXPERIMANTAL/DSC_0001.jpg": {
+		"width": 4429,
+		"height": 2953
+	},
+	"/assets/images/EXPERIMANTAL/DSC_1562.jpg": {
+		"width": 4608,
+		"height": 3072
+	},
+	"/assets/images/EXPERIMANTAL/DSC_7126.jpg": {
+		"width": 1500,
+		"height": 762
+	},
+	"/assets/images/EXPERIMANTAL/DSC_7322.jpg": {
+		"width": 1000,
+		"height": 1500
+	},
+	"/assets/images/EXPERIMANTAL/DSC_7358.jpg": {
+		"width": 3065,
+		"height": 4598
+	},
+	"/assets/images/EXPERIMANTAL/DSC_7387.jpg": {
+		"width": 4608,
+		"height": 3072
+	},
+	"/assets/images/EXPERIMANTAL/DSC_7413-2.jpg": {
+		"width": 4608,
+		"height": 3072
+	},
+	"/assets/images/EXPERIMANTAL/PRINTME.jpg": {
+		"width": 4618,
+		"height": 3464
+	},
+	"/assets/images/LIGHT PAINTING/DSC_7444.jpg": {
+		"width": 4608,
+		"height": 3072
+	},
+	"/assets/images/LIGHT PAINTING/DSC_7449.jpg": {
+		"width": 4473,
+		"height": 2982
+	},
+	"/assets/images/LIGHT PAINTING/DSC_7457.jpg": {
+		"width": 4608,
+		"height": 3072
+	},
+	"/assets/images/LIGHT PAINTING/DSC_7469.jpg": {
+		"width": 4452,
+		"height": 2968
+	},
+	"/assets/images/LIGHT PAINTING/DSC_7472.jpg": {
+		"width": 4608,
+		"height": 3072
+	},
+	"/assets/images/LIGHT PAINTING/DSC_7484.jpg": {
+		"width": 3072,
+		"height": 4608
+	},
+	"/assets/images/LIGHT PAINTING/DSC_7491.jpg": {
+		"width": 4608,
+		"height": 3072
+	},
+	"/assets/images/ME/DSCF1393.jpg": {
+		"width": 3000,
+		"height": 2000
+	},
+	"/assets/images/NATURE/DSCF0624.jpg": {
+		"width": 4000,
+		"height": 2667
+	},
+	"/assets/images/NATURE/DSCF0654.jpg": {
+		"width": 4000,
+		"height": 2667
+	},
+	"/assets/images/NATURE/DSCF0669.jpg": {
+		"width": 4000,
+		"height": 2667
+	},
+	"/assets/images/NATURE/DSCF1841.jpg": {
+		"width": 2500,
+		"height": 1667
+	},
+	"/assets/images/NATURE/DSCF2007.jpg": {
+		"width": 2500,
+		"height": 1667
+	},
+	"/assets/images/NATURE/DSCF3511.jpg": {
+		"width": 4896,
+		"height": 3264
+	},
+	"/assets/images/NATURE/DSC_0017-3.jpg": {
+		"width": 4608,
+		"height": 3072
+	},
+	"/assets/images/NATURE/DSC_8078.jpg": {
+		"width": 4608,
+		"height": 3072
+	},
+	"/assets/images/NETHERLANDS/DSCF0423.jpg": {
+		"width": 3000,
+		"height": 2000
+	},
+	"/assets/images/NETHERLANDS/DSCF0474.jpg": {
+		"width": 3000,
+		"height": 2000
+	},
+	"/assets/images/NETHERLANDS/DSCF0576.jpg": {
+		"width": 5000,
+		"height": 3333
+	},
+	"/assets/images/NETHERLANDS/DSCF0596.jpg": {
+		"width": 5000,
+		"height": 3333
+	},
+	"/assets/images/NETHERLANDS/DSCF0598.jpg": {
+		"width": 5000,
+		"height": 3333
+	},
+	"/assets/images/NETHERLANDS/DSCF0705.jpg": {
+		"width": 4000,
+		"height": 2667
+	},
+	"/assets/images/NETHERLANDS/DSCF0999.jpg": {
+		"width": 4896,
+		"height": 3264
+	},
+	"/assets/images/NETHERLANDS/DSCF1424.jpg": {
+		"width": 2500,
+		"height": 1667
+	},
+	"/assets/images/NETHERLANDS/DSCF1470.jpg": {
+		"width": 3000,
+		"height": 1876
+	},
+	"/assets/images/NETHERLANDS/DSCF1588.jpg": {
+		"width": 3000,
+		"height": 2000
+	},
+	"/assets/images/NETHERLANDS/DSCF2087.jpg": {
+		"width": 2500,
+		"height": 1667
+	},
+	"/assets/images/NETHERLANDS/DSCF2439.jpg": {
+		"width": 2500,
+		"height": 1667
+	},
+	"/assets/images/NETHERLANDS/DSCF2570.jpg": {
+		"width": 2500,
+		"height": 1667
+	},
+	"/assets/images/STREET/DSCF0320.jpg": {
+		"width": 3000,
+		"height": 2000
+	},
+	"/assets/images/STREET/DSCF0329.jpg": {
+		"width": 3000,
+		"height": 2000
+	},
+	"/assets/images/STREET/DSCF0356.jpg": {
+		"width": 3000,
+		"height": 2000
+	},
+	"/assets/images/STREET/DSCF0385.jpg": {
+		"width": 3000,
+		"height": 2000
+	},
+	"/assets/images/STREET/DSCF0394.jpg": {
+		"width": 3000,
+		"height": 2000
+	},
+	"/assets/images/STREET/DSCF0435.jpg": {
+		"width": 3000,
+		"height": 2000
+	},
+	"/assets/images/STREET/DSCF0744.jpg": {
+		"width": 4000,
+		"height": 2667
+	},
+	"/assets/images/STREET/DSCF1241.jpg": {
+		"width": 4896,
+		"height": 3264
+	},
+	"/assets/images/STREET/DSCF1441.jpg": {
+		"width": 2500,
+		"height": 1667
+	},
+	"/assets/images/STREET/DSCF1554.jpg": {
+		"width": 3000,
+		"height": 2000
+	},
+	"/assets/images/STREET/DSCF1578-2.jpg": {
+		"width": 3000,
+		"height": 2000
+	},
+	"/assets/images/STREET/DSCF2436.jpg": {
+		"width": 1667,
+		"height": 2500
+	},
+	"/assets/images/STREET/DSCF2473.jpg": {
+		"width": 2500,
+		"height": 1667
+	},
+	"/assets/images/STREET/DSCF3362.jpg": {
+		"width": 4896,
+		"height": 3264
+	},
+	"/assets/images/category_1/DSC_0076.jpg": {
+		"width": 4608,
+		"height": 3072
+	},
+	"/assets/images/category_1/DSC_0107-2.jpg": {
+		"width": 4608,
+		"height": 3072
+	},
+	"/assets/images/category_1/DSC_0224.jpg": {
+		"width": 4608,
+		"height": 3072
+	},
+	"/assets/images/category_1/DSC_0332.jpg": {
+		"width": 4608,
+		"height": 3072
+	},
+	"/assets/images/category_1/DSC_0431-2.jpg": {
+		"width": 3427,
+		"height": 2742
+	},
+	"/assets/images/category_1/DSC_0469.jpg": {
+		"width": 4608,
+		"height": 3072
+	},
+	"/assets/images/category_1/DSC_0503 copy.jpg": {
+		"width": 3565,
+		"height": 2682
+	},
+	"/assets/images/category_1/DSC_4351.jpg": {
+		"width": 4608,
+		"height": 3072
+	},
+	"/assets/images/category_1/DSC_4665.jpg": {
+		"width": 4608,
+		"height": 3072
+	},
+	"/assets/images/category_1/DSC_4693.jpg": {
+		"width": 2901,
+		"height": 1934
+	},
+	"/assets/images/category_1/DSC_4696.jpg": {
+		"width": 4608,
+		"height": 3072
+	},
+	"/assets/images/category_1/DSC_5017.jpg": {
+		"width": 4012,
+		"height": 2956
+	},
+	"/assets/images/category_1/DSC_5501.jpg": {
+		"width": 1898,
+		"height": 2122
+	},
+	"/assets/images/category_1/DSC_5570.jpg": {
+		"width": 3072,
+		"height": 4608
+	},
+	"/assets/images/category_1/DSC_6316.jpg": {
+		"width": 4352,
+		"height": 2901
+	},
+	"/assets/images/category_1/DSC_6657.jpg": {
+		"width": 3869,
+		"height": 2579
+	},
+	"/assets/images/category_1/DSC_6685.jpg": {
+		"width": 4608,
+		"height": 3072
+	},
+	"/assets/images/category_1/DSC_6865.jpg": {
+		"width": 3900,
+		"height": 2600
+	},
+	"/assets/images/category_1/DSC_6965.jpg": {
+		"width": 4608,
+		"height": 3072
+	},
+	"/assets/images/category_1/DSC_6966.jpg": {
+		"width": 4608,
+		"height": 3072
+	},
+	"/assets/images/category_1/DSC_7116.jpg": {
+		"width": 4608,
+		"height": 3072
+	},
+	"/assets/images/category_1/DSC_7155.jpg": {
+		"width": 4608,
+		"height": 3072
+	},
+	"/assets/images/category_1/abstract-DSCF0524-4x3.jpg": {
+		"width": 5000,
+		"height": 3333
+	},
+	"/assets/images/category_1/abstract-DSCF0553-4x3.jpg": {
+		"width": 5000,
+		"height": 3333
+	},
+	"/assets/images/category_1/abstract-DSCF1061-4x3.jpg": {
+		"width": 4797,
+		"height": 3198
+	},
+	"/assets/images/category_1/abstract-DSCF1579-4x3.jpg": {
+		"width": 3000,
+		"height": 2000
+	},
+	"/assets/images/category_1/abstract-DSCF2739-3x4.jpg": {
+		"width": 1667,
+		"height": 2500
+	},
+	"/assets/images/category_1/abstract-DSCF2755-4x3.jpg": {
+		"width": 2500,
+		"height": 1667
+	},
+	"/assets/images/category_1/architecture-DSCF0235-4x3.jpg": {
+		"width": 5000,
+		"height": 3333
+	},
+	"/assets/images/category_1/architecture-DSCF0531-3x4.jpg": {
+		"width": 3333,
+		"height": 5000
+	},
+	"/assets/images/category_1/architecture-DSCF0535-4x3.jpg": {
+		"width": 5000,
+		"height": 3333
+	},
+	"/assets/images/category_1/architecture-DSCF0544-4x3.jpg": {
+		"width": 5000,
+		"height": 3333
+	},
+	"/assets/images/category_1/architecture-DSCF0545-4x3.jpg": {
+		"width": 5000,
+		"height": 3333
+	},
+	"/assets/images/category_1/architecture-DSCF0547-3x4.jpg": {
+		"width": 3343,
+		"height": 5000
+	},
+	"/assets/images/category_1/architecture-DSCF0555-3x4.jpg": {
+		"width": 3333,
+		"height": 5000
+	},
+	"/assets/images/category_1/architecture-DSCF0556-4x3.jpg": {
+		"width": 5000,
+		"height": 3333
+	},
+	"/assets/images/category_1/architecture-DSCF0558-4x3.jpg": {
+		"width": 5000,
+		"height": 3333
+	},
+	"/assets/images/category_1/architecture-DSCF0769-4x3.jpg": {
+		"width": 4000,
+		"height": 2667
+	},
+	"/assets/images/category_1/architecture-DSCF0954-4x3.jpg": {
+		"width": 4896,
+		"height": 3264
+	},
+	"/assets/images/category_1/architecture-DSCF1452-4x3.jpg": {
+		"width": 4896,
+		"height": 3264
+	},
+	"/assets/images/category_1/architecture-DSCF1522-4x3.jpg": {
+		"width": 3000,
+		"height": 2000
+	},
+	"/assets/images/category_1/architecture-DSCF2558-4x3.jpg": {
+		"width": 2500,
+		"height": 1667
+	},
+	"/assets/images/category_1/architecture-DSCF2583-4x3.jpg": {
+		"width": 2500,
+		"height": 1667
+	},
+	"/assets/images/category_1/architecture-DSCF2638-4x3.jpg": {
+		"width": 2500,
+		"height": 1667
+	},
+	"/assets/images/category_1/architecture-DSCF3169-3x4.jpg": {
+		"width": 3264,
+		"height": 4896
+	},
+	"/assets/images/category_1/clouds-DSCF2347-3x4.jpg": {
+		"width": 1667,
+		"height": 2500
+	},
+	"/assets/images/category_1/clouds-DSCF2385-4x3.jpg": {
+		"width": 2500,
+		"height": 1667
+	},
+	"/assets/images/category_1/clouds-DSCF2389-3x4.jpg": {
+		"width": 1667,
+		"height": 2500
+	},
+	"/assets/images/category_1/clouds-DSCF2415-3x4.jpg": {
+		"width": 1667,
+		"height": 2500
+	},
+	"/assets/images/category_1/clouds-DSCF2450-4x3.jpg": {
+		"width": 2500,
+		"height": 1667
+	},
+	"/assets/images/category_1/clouds-DSCF2513-4x3.jpg": {
+		"width": 2500,
+		"height": 1667
+	},
+	"/assets/images/category_1/clouds-DSCF2600-3x4.jpg": {
+		"width": 1667,
+		"height": 2500
+	},
+	"/assets/images/category_1/clouds-DSCF2602-3x4.jpg": {
+		"width": 1667,
+		"height": 2500
+	},
+	"/assets/images/category_1/clouds-IMG_20190617_184406-3x4.jpg": {
+		"width": 3456,
+		"height": 4608
+	},
+	"/assets/images/category_1/experimental-DSCF0308-3x4.jpg": {
+		"width": 2000,
+		"height": 3000
+	},
+	"/assets/images/category_1/experimental-DSCF0610-4x3.jpg": {
+		"width": 4000,
+		"height": 2667
+	},
+	"/assets/images/category_1/experimental-DSCF0825-4x3.jpg": {
+		"width": 4000,
+		"height": 2667
+	},
+	"/assets/images/category_1/experimental-DSCF1046-4x3.jpg": {
+		"width": 4896,
+		"height": 3264
+	},
+	"/assets/images/category_1/experimental-DSCF1075-4x3.jpg": {
+		"width": 4713,
+		"height": 3142
+	},
+	"/assets/images/category_1/experimental-DSCF1302-4x3.jpg": {
+		"width": 2500,
+		"height": 1667
+	},
+	"/assets/images/category_1/experimental-DSCF1326-4x3.jpg": {
+		"width": 4747,
+		"height": 3165
+	},
+	"/assets/images/category_1/experimental-DSCF1329-4x3.jpg": {
+		"width": 4896,
+		"height": 3264
+	},
+	"/assets/images/category_1/experimental-DSCF1600-4x3.jpg": {
+		"width": 3000,
+		"height": 2000
+	},
+	"/assets/images/category_1/experimental-DSCF1901-4x3.jpg": {
+		"width": 2500,
+		"height": 1667
+	},
+	"/assets/images/category_1/experimental-DSCF1947-3x4.jpg": {
+		"width": 1667,
+		"height": 2500
+	},
+	"/assets/images/category_1/experimental-DSCF1961-3x4.jpg": {
+		"width": 1667,
+		"height": 2500
+	},
+	"/assets/images/category_1/experimental-DSCF2443-4x3.jpg": {
+		"width": 2500,
+		"height": 1667
+	},
+	"/assets/images/category_1/experimental-DSCF2485-4x3.jpg": {
+		"width": 2500,
+		"height": 1667
+	},
+	"/assets/images/category_1/experimental-DSCF2897-4x3.jpg": {
+		"width": 4835,
+		"height": 3223
+	},
+	"/assets/images/category_1/experimental-DSCF3193-4x3.jpg": {
+		"width": 4435,
+		"height": 2957
+	},
+	"/assets/images/category_1/experimental-DSC_0001-4x3.jpg": {
+		"width": 4429,
+		"height": 2953
+	},
+	"/assets/images/category_1/experimental-DSC_1562-4x3.jpg": {
+		"width": 4608,
+		"height": 3072
+	},
+	"/assets/images/category_1/experimental-DSC_7126-5x3.jpg": {
+		"width": 1500,
+		"height": 762
+	},
+	"/assets/images/category_1/experimental-DSC_7322-3x4.jpg": {
+		"width": 1000,
+		"height": 1500
+	},
+	"/assets/images/category_1/experimental-DSC_7358-3x4.jpg": {
+		"width": 3065,
+		"height": 4598
+	},
+	"/assets/images/category_1/experimental-DSC_7387-4x3.jpg": {
+		"width": 4608,
+		"height": 3072
+	},
+	"/assets/images/category_1/experimental-DSC_7413-4x3.jpg": {
+		"width": 4608,
+		"height": 3072
+	},
+	"/assets/images/category_1/experimental-PRINTME-4x3.jpg": {
+		"width": 4618,
+		"height": 3464
+	}
+}
